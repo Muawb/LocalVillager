@@ -1,0 +1,13 @@
+#Here you can prescribe the messages that will be displayed to the player when interacting with a resident
+#If you want the message to be colored, you must specify the color element code before the message.
+
+messages:
+  message1: 'Hello'
+  message2: 'I have a lot of interesting items !'
+  message3: 'How are you doing ?'
+  message4: 'Bye !'
+
+#Here you can set the name
+customname:
+   name: '&4Hunter'
+

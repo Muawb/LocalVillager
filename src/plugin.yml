@@ -1,0 +1,11 @@
+name: LocalVillager
+main: org.muawb.plugin.LocalVillager
+version: 1.0.0
+
+commands:
+    local:
+        description: Create local a villager
+        usage: /<command>
+    reloading:
+        description: Reloaded configuration
+        usage: /<command>
