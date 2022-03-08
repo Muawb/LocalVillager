@@ -2,6 +2,8 @@ package org.muawb.plugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.muawb.plugin.Listener.Events;
+import org.muawb.plugin.Commands.Commands;
 
 
 public class LocalVillager extends JavaPlugin {
@@ -14,12 +16,5 @@ public class LocalVillager extends JavaPlugin {
         saveDefaultConfig();
         getLogger().info("Create configuration");
         getCommand("local").setExecutor(new Commands(this));
-        getCommand("reloading").setExecutor(new Commands(this));
-
-    }
-
-    @Override
-    public void onDisable(){
-
     }
 }
